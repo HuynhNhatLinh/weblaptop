@@ -1,0 +1,22 @@
+{
+  "name": "linh_admin/ecommerce",
+  "description": "Du an web ban laptop va phu kien",
+  "autoload": {
+    "psr-4": {
+      "TanAdmin\\QuizOnline\\": [
+        "vender/"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "NHATLINH1610",
+      "email": "huynhnhatlinhn360@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.8",
+    "cloudinary/cloudinary_php": "^2",
+    "tecnickcom/tcpdf": "^6.6"
+  }
+}
